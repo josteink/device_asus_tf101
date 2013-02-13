@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Enable Expanded desktop in Power Menu -->
+    <bool name="config_show_expandedDesktop">true</bool>
+</resources>
