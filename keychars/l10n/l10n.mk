@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/asusec-ru_RU.kcm:system/usr/keychars/asusec-ru_RU.kcm \
     $(LOCAL_PATH)/asusec-sk_SK.kcm:system/usr/keychars/asusec-sk_SK.kcm \
     $(LOCAL_PATH)/asusec-sv_SE.kcm:system/usr/keychars/asusec-sv_SE.kcm \
+    $(LOCAL_PATH)/asusec-sl_SI.kcm:system/usr/keychars/asusec-sl_SI.kcm \
     $(LOCAL_PATH)/asusec-th_TH.kcm:system/usr/keychars/asusec-th_TH.kcm \
     $(LOCAL_PATH)/asusec-tr_TR.kcm:system/usr/keychars/asusec-tr_TR.kcm \
     $(LOCAL_PATH)/asusec-zh_CN.kcm:system/usr/keychars/asusec-zh_CN.kcm \

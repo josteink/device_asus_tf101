@@ -32,6 +32,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/asusec-ru_RU.kl:system/usr/keylayout/asusec-ru_RU.kl \
     $(LOCAL_PATH)/asusec-sk_SK.kl:system/usr/keylayout/asusec-sk_SK.kl \
     $(LOCAL_PATH)/asusec-sv_SE.kl:system/usr/keylayout/asusec-sv_SE.kl \
+    $(LOCAL_PATH)/asusec-sl_SI.kl:system/usr/keylayout/asusec-sl_SI.kl \
     $(LOCAL_PATH)/asusec-th_TH.kl:system/usr/keylayout/asusec-th_TH.kl \
     $(LOCAL_PATH)/asusec-tr_TR.kl:system/usr/keylayout/asusec-tr_TR.kl \
     $(LOCAL_PATH)/asusec-zh_CN.kl:system/usr/keylayout/asusec-zh_CN.kl \
