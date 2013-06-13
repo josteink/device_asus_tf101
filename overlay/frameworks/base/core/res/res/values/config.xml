@@ -212,11 +212,8 @@
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">false</bool>
 
-
     <!-- Base "touch slop" value used by ViewConfiguration as a
-         movement threshold where scrolling should begin.
-
-          -->
+         movement threshold where scrolling should begin. -->
     <dimen name="config_viewConfigurationTouchSlop">8dp</dimen>
 
     <!-- Separate software navigation bar required on this device. -->
@@ -231,17 +228,19 @@
     <!--  Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">8</integer>
 
-    <!-- don't allow a desiredWallpaper dimension bigger than this value -->
+    <!-- don't allow a desiredWallpaper dimension bigger than this value --> 
     <integer name="config_desiredWallpaperSizeMaxWidth">1504</integer>
-    <integer name="config_desiredWallpaperSizeMaxHeight">1280</integer>
+    <integer name="config_desiredWallpaperSizeMaxHeight">1280</integer> 
 
-    <!-- We now need to use a constant bool as reference
+    <!-- We now need to use a constant bool as reference 
      for whether or not this is a hybrid ui device, i.e. grouper. -->
     <bool name="config_isHybridUiDevice">true</bool>
 
     <!-- Asus Dock Compatiblity should be enabled -->
-    <bool name="config_hasDockBattery">true</bool>
-	<string name="config_deviceHandlersLib" translatable="false">/system/framework/com.cyanogenmod.asusdec.jar</string>
+    <bool name="config_hasDockBattery">true</bool>  
+       <string name="config_deviceHandlersLib" translatable="false">/system/framework/com.cyanogenmod.asusdec.jar</string>
     <string name="config_deviceDockBatteryHandlerClass" translatable="false">com.cyanogenmod.asusdec.DockBatteryHandler</string>
     <string name="config_deviceKeyHandlerClass" translatable="false">com.cyanogenmod.asusdec.KeyHandler</string>
 </resources>
+
+    <!--NOTE: You might have an error which asks you to <add-resource> during building the ROM. The codes starting from "config_desiredWallpaper" are causing it. I cherry picked it from TeamEOS device tree. Go to the /frameworks/base/core/res/res/values/config.xml and paste those codes to get it working --> 

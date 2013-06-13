@@ -2,3 +2,5 @@
     <bool name="config_largeHeap">true</bool>
     <bool name="config_render_wallpaper_internally">true</bool>
 </resources>
+
+<!--NOTE: You might have an error which asks you to <add-resource> during building the ROM. Go to /packages/apps/Launcher2/res/values/config.xml and paste the "config_render_wallpaper_internally" code into it to get it working -->
