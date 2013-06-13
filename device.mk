@@ -130,6 +130,7 @@ PRODUCT_TAGS += dalvik.gc.type-precise
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory \
     make_ext4fs \
+    AutoParts \
     setup_fs \
     audio.a2dp.default \
     libaudioutils \
