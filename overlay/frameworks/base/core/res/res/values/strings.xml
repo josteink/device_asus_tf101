@@ -19,9 +19,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-<!-- Storage description for the SD card on the dock. [CHAR LIMIT=NONE] -->
+<!-- Storage description for the SD card on the dock. -->
 <string name="storage_sd_dock_card">Dock SD card</string>
-
 <add-resource type="string" name="storage_sd_dock_card"></add-resource>
+
+<!-- Storage description for the USB on the dock. -->
+<string name="storage_usb">Dock USB</string>
+<add-resource type="string" name="storage_usb"></add-resource>
 
 </resources>
