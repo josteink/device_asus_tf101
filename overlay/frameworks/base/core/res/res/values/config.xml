@@ -242,5 +242,3 @@
     <string name="config_deviceDockBatteryHandlerClass" translatable="false">com.cyanogenmod.asusdec.DockBatteryHandler</string>
     <string name="config_deviceKeyHandlerClass" translatable="false">com.cyanogenmod.asusdec.KeyHandler</string>
 </resources>
-
-    <!--NOTE: You might have an error which asks you to <add-resource> during building the ROM. The codes starting from "config_desiredWallpaper" are causing it. I cherry picked it from TeamEOS device tree. Go to the /frameworks/base/core/res/res/values/config.xml and paste those codes to get it working --> 
