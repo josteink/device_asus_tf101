@@ -1,0 +1,5 @@
+#!/system/bin/sh
+
+insmod /system/lib/modules/texfat.ko
+insmod /system/lib/modules/tun.ko
+insmod /system/lib/modules/cifs.ko

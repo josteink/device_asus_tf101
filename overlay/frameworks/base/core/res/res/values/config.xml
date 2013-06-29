@@ -238,7 +238,51 @@
 
     <!-- Asus Dock Compatiblity should be enabled -->
     <bool name="config_hasDockBattery">true</bool>  
-       <string name="config_deviceHandlersLib" translatable="false">/system/framework/com.cyanogenmod.asusdec.jar</string>
+
+    <string name="config_deviceHandlersLib" translatable="false">/system/framework/com.cyanogenmod.asusdec.jar</string>
     <string name="config_deviceDockBatteryHandlerClass" translatable="false">com.cyanogenmod.asusdec.DockBatteryHandler</string>
     <string name="config_deviceKeyHandlerClass" translatable="false">com.cyanogenmod.asusdec.KeyHandler</string>
+
+       	<add-resource type="string" name="config_deviceHandlersLib"></add-resource>
+    	<add-resource type="string" name="config_deviceDockBatteryHandlerClass"></add-resource>
+    	<add-resource type="string" name="config_deviceKeyHandlerClass"></add-resource>
+    	<add-resource type="bool" name="config_sf_slowBlur"></add-resource>
+    	<add-resource type="string" name="config_datause_iface"></add-resource>
+    	<add-resource type="string" name="natworkAttributes"></add-resource>
+    	<add-resource type="string" name="radioAttributes"></add-resource>
+    	<add-resource type="string" name="config_tether_usb_regexs"></add-resource>
+    	<add-resource type="string" name="config_tether_upstream_types"></add-resource>
+    	<add-resource type="string" name="config_tether_wifi_regexs"></add-resource>
+    	<add-resource type="string" name="config_tether_bluetooth_regexs"></add-resource>
+    	<add-resource type="bool" name="config_wifi_dual_band_support"></add-resource>
+    	<add-resource type="bool" name="config_wifi_background_scan_support"></add-resource>
+    	<add-resource type="string" name="config_usbHostBlackList"></add-resource>
+   	<add-resource type="bool" name="config_automatic_brightness_available"></add-resource>
+   	<add-resource type="bool" name="config_enableLockScreenRotation"></add-resource>
+   	<add-resource type="bool" name="config_allowAllRotations"></add-resource>
+   	<add-resource type="integer" name="config_lidKeyboardAccessibility"></add-resource>
+   	<add-resource type="integer" name="config_lidNavigationAccessibility"></add-resource>
+   	<add-resource type="bool" name="config_lidControlsSleep"></add-resource>
+   	<add-resource type="integer" name="config_autoBrightnessLevels"></add-resource>
+   	<add-resource type="integer" name="config_autoBrightnessLcdBackLightValues"></add-resource>
+   	<add-resource type="integer" name="config_autoBrightnessButtonBacklightValues"></add-resource>
+   	<add-resource type="integer" name="config_screenBrightnessDim"></add-resource>
+   	<add-resource type="bool" name="config_voice_capable"></add-resource>
+   	<add-resource type="bool" name="config_sms_capable"></add-resource>
+   	<add-resource type="bool" name="config_hasRemovableLid"></add-resource>
+   	<add-resource type="bool" name="config_enable_puk_unlock_screen"></add-resource>
+   	<add-resource type="integer" name="db_connection_pool_size"></add-resource>
+   	<add-resource type="integer" name="config_downloadDataDirSize"></add-resource>
+   	<add-resource type="integer" name="config_downloadDataDirLowSpaceThreshold"></add-resource>
+   	<add-resource type="integer" name="config_cursorWindowSize"></add-resource>
+   	<add-resource type="bool" name="config_intrusiveNotificationLed"></add-resource>
+   	<add-resource type="dimen" name="config_viewConfigurationTouchSlop"></add-resource>
+   	<add-resource type="bool" name="config_showNavigationbar"></add-resource>
+   	<add-resource type="bool" name="config_unplugTurnOnscreen"></add-resource>
+   	<add-resource type="integer" name="config_lockSoundVolumeDb"></add-resource>
+   	<add-resource type="integer" name="config_multiuserMaximumUsers"></add-resource>
+   	<add-resource type="integer" name="config_desiredWallpaperSizeMaxWidth"></add-resource>
+   	<add-resource type="integer" name="config_desiredWallpaperSizeMaxHeight"></add-resource>
+   	<add-resource type="bool" name="config_isHybridUiDevice"></add-resource>
+   	<add-resource type="bool" name="config_hasDockBattery"></add-resource>
 </resources>
